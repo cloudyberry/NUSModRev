@@ -23,7 +23,7 @@
 		<ol class="leaderboard">
 			{{#EasySearch.Each index=index }}
 				{{> User}}
-			{{/EasySearch.Each}}	
+			{{/EasySearch.Each}}
 		</ol>
 
 		{{#EasySearch.IfNoResults index=index }}
@@ -52,7 +52,7 @@
 <template name="User">
 	<li class="user black {{selected}}" id="user-link">
 		<span class="name">{{jokeName}}</span>
-		<span class="name">{{jokePost}}</span>
+	
 
 		{{#if selected}}
 		<div class="jokeInfo">
@@ -79,25 +79,3 @@
 		{{/if}}
 	</li>
 </template>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
