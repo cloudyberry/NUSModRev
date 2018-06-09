@@ -1,0 +1,32 @@
+<template name="jokeForm">
+	{{#if currentUser}}
+	<!-- Joke Form-->
+	<div id="jokeForm-wrap">
+		<center>
+			<form class="joke-post">
+				<h2 class="jokeForm-heading">Post Review</h2>
+				<label for="jokeName" class="sr-only">Module Code: Module Name</label>
+				<input type="text" name="jokeName" id="jokeName" class="form-control" placeholder="Module Code: Module Name" >
+				<label for="jokePost" class="sr-only">Opinions on module</label>
+				<!--removed max length-->
+				<textarea rows="5" name="jokePost" id="jokePost" class="form-control" placeholder="Share your opinions about this module..."></textarea>
+				<!--<input type="text" name="jokePost" id="jokePost" class="form-control" placeholder="Break A Leg!">-->
+
+				<button class="btn btn-lg btn-info btn-block" type="submit">Post Review</button>
+			</form>
+		</center>
+	</div>
+	<!-- End Joke Form-->
+	{{else}}
+	<!-- Joke Form-->
+	<div id="jokeForm-wrap">
+		<center>
+			<form class="joke-post">
+				<h2 class="form-signin-heading">Log In To Post Reviews</h2>
+				<a href="/" class="btn btn-md btn-primary" id="login-redir">Login</a>
+			</form>
+		</center>
+	</div>
+	<!-- End Joke Form-->
+	{{/if}}
+</template>
