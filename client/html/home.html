@@ -9,9 +9,13 @@
 	<div class="joke">
 		<div class="row">
 			<div class=".col-sm-6 .col-md-5 .col-lg-6" id="info">
+				<!--jokeName,semester,recommendation,diff,workload,steepness,jokePost-->
 				<h1 class="joke-title">{{jokeName}}</h1>
 				<p class="semester">Taken in: {{semester}}</p>
-
+				<p class="recommendation">Recommendation Level: {{recommendation}}</p>
+				<p class="diff">Difficulty Level: {{diff}}</p>
+				<p class="workload">Workload: {{workload}}</p>
+				<p class="steepness">Steepness of Bellcurve: {{steepness}}</p>
 
 			</div>
 			<div class=".col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0" id="vote">
@@ -30,7 +34,7 @@
 		<p class="meta">Posted by: {{author}} on {{date}}</p>
 
 		<button type="button" class="btn btn-warning" id="laugh"><span class="glyphicon">&#xe005;</span> Like({{laughScore}})</button>
-    <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-comment"></span> Comment</button>
+    	<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-comment"></span> Comment</button>
 
 	</div>
 	<!-- End Joke -->

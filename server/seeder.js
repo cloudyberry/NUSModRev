@@ -24,6 +24,10 @@ Meteor.startup(function() {
         jokeName: "CS1231: Discrete Structures",
         jokePost: "Tutorials are extremely tough",
         semester: "AY1718 S1",
+        diff: "high",
+        recommendation: "3",
+        workload: "low",
+        steepness: "high",
         author: "Kaining",
         date: date,
         createdAt: new Date(),
@@ -51,9 +55,13 @@ Meteor.startup(function() {
       var user1Id = Meteor.users.findOne({username: 'User1'})._id;
 
       Jokes.insert({
-        jokeName: "Funny 1",
-        jokePost: "This is a very very Funny joke",
-        semester: "AY1718 S1",
+        jokeName: "MA1312: Calculus for computing",
+        jokePost: "Prof makes the lectures very interesting",
+        semester: "AY1718 S2",
+        diff: "moderate",
+        recommendation: "5",
+        workload: "low",
+        steepness: "high",
         author: "User1",
         date: date,
         createdAt: new Date(),
@@ -81,9 +89,13 @@ Meteor.startup(function() {
       var user2Id = Meteor.users.findOne({username: 'User2'})._id;
 
       Jokes.insert({
-        jokeName: "Nasty Joke 1",
-        jokePost: "This is a very very Nasty joke",
+         jokeName: "CS1231: Discrete Structures",
+        jokePost: "Tutorials are extremely tough",
         semester: "AY1718 S1",
+        diff: "high",
+        recommendation: "recommendation",
+        workload: "workload",
+        steepness: "steepness",
         author: "User2",
         date: date,
         createdAt: new Date(),
@@ -111,9 +123,13 @@ Meteor.startup(function() {
       var user3Id = Meteor.users.findOne({username: 'User3'})._id;
 
       Jokes.insert({
-        jokeName: "Funny Joke 2",
-        jokePost: "This is a very very Funny joke",
+       jokeName: "CS1231: Discrete Structures",
+        jokePost: "Tutorials are extremely tough",
         semester: "AY1718 S1",
+        diff: "high",
+        recommendation: "recommendation",
+        workload: "workload",
+        steepness: "steepness",
         author: "User3",
         date: date,
         createdAt: new Date(),
@@ -141,9 +157,13 @@ Meteor.startup(function() {
       var user4Id = Meteor.users.findOne({username: 'User4'})._id;
 
       Jokes.insert({
-        jokeName: "Lame Joke 2",
-        jokePost: "This is a very very Lame joke",
+        jokeName: "CS1231: Discrete Structures",
+        jokePost: "Tutorials are extremely tough",
         semester: "AY1718 S1",
+        diff: "high",
+        recommendation: "recommendation",
+        workload: "workload",
+        steepness: "steepness",
         author: "User4",
         date: date,
         createdAt: new Date(),
@@ -171,9 +191,13 @@ Meteor.startup(function() {
       var user5Id = Meteor.users.findOne({username: 'User5'})._id;
 
       Jokes.insert({
-        jokeName: "Nasty Joke 2",
-        jokePost: "This is a very very Nasty joke",
+      jokeName: "CS1231: Discrete Structures",
+        jokePost: "Tutorials are extremely tough",
         semester: "AY1718 S1",
+        diff: "high",
+        recommendation: "recommendation",
+        workload: "workload",
+        steepness: "steepness",
         author: "User5",
         date: date,
         createdAt: new Date(),
@@ -201,9 +225,13 @@ Meteor.startup(function() {
       var user6Id = Meteor.users.findOne({username: 'User6'})._id;
 
       Jokes.insert({
-        jokeName: "Funny Joke 3",
-        jokePost: "This is a very very Funny joke",
+      jokeName: "CS1231: Discrete Structures",
+        jokePost: "Tutorials are extremely tough",
         semester: "AY1718 S1",
+        diff: "high",
+        recommendation: "recommendation",
+        workload: "workload",
+        steepness: "steepness",
         author: "User6",
         date: date,
         createdAt: new Date(),
@@ -231,9 +259,13 @@ Meteor.startup(function() {
       var user7Id = Meteor.users.findOne({username: 'User7'})._id;
 
       Jokes.insert({
-        jokeName: "Lame Joke 3",
-        jokePost: "This is a very very Lame joke",
+       jokeName: "CS1231: Discrete Structures",
+        jokePost: "Tutorials are extremely tough",
         semester: "AY1718 S1",
+        diff: "high",
+        recommendation: "recommendation",
+        workload: "workload",
+        steepness: "steepness",
         author: "User7",
         date: date,
         createdAt: new Date(),
@@ -261,9 +293,13 @@ Meteor.startup(function() {
       var user8Id = Meteor.users.findOne({username: 'User8'})._id;
 
       Jokes.insert({
-        jokeName: "Nasty Joke 3",
-        jokePost: "This is a very very Nasty joke",
+        jokeName: "CS1231: Discrete Structures",
+        jokePost: "Tutorials are extremely tough",
         semester: "AY1718 S1",
+        diff: "high",
+        recommendation: "recommendation",
+        workload: "workload",
+        steepness: "steepness",
         author: "User8",
         date: date,
         createdAt: new Date(),
@@ -291,9 +327,13 @@ Meteor.startup(function() {
       var user9Id = Meteor.users.findOne({username: 'User9'})._id;
 
       Jokes.insert({
-        jokeName: "Funny Joke 3",
-        jokePost: "This is a very very Funny joke",
+       jokeName: "CS1231: Discrete Structures",
+        jokePost: "Tutorials are extremely tough",
         semester: "AY1718 S1",
+        diff: "high",
+        recommendation: "recommendation",
+        workload: "workload",
+        steepness: "steepness",
         author: "User9",
         date: date,
         createdAt: new Date(),
@@ -321,9 +361,13 @@ Meteor.startup(function() {
       var user10Id = Meteor.users.findOne({username: 'User10'})._id;
 
       Jokes.insert({
-        jokeName: "Nasty Joke 4",
-        jokePost: "This is a very very Nasty joke",
+       jokeName: "CS1231: Discrete Structures",
+        jokePost: "Tutorials are extremely tough",
         semester: "AY1718 S1",
+        diff: "high",
+        recommendation: "recommendation",
+        workload: "workload",
+        steepness: "steepness",
         author: "User10",
         date: date,
         createdAt: new Date(),
