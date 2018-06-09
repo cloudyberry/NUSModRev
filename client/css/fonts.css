@@ -103,3 +103,7 @@ p {
 .modulecode, .semester, .diff, .workload, .steepness, .recommendation{
   text-align: left;
 }
+
+.semester {
+  padding-top: 5px;
+}
