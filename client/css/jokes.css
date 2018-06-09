@@ -1,6 +1,6 @@
 /* The main content */
 .main-content {
-  max-width: 600px;
+  max-width: 800px;
   padding-top: 40px;
   padding-right: 40px;
   margin: 0 0 40px 250px;
@@ -46,7 +46,7 @@
 .meta {
 	color: #6E92BB;	
 	font-size: 16px;
-	padding-left:300px;
+	padding-left:400px;
 	/*font-weight: 900;*/
 }
 

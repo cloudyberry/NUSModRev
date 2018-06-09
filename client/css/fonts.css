@@ -98,3 +98,8 @@ p {
 @media (max-height:  800px) {
 
 }
+
+/*--------added-----------*/
+.modulecode, .sem, .diff, .workload, .steepness, .recommendation{
+  text-align: left;
+}
