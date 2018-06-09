@@ -100,6 +100,6 @@ p {
 }
 
 /*--------added-----------*/
-.modulecode, .sem, .diff, .workload, .steepness, .recommendation{
+.modulecode, .semester, .diff, .workload, .steepness, .recommendation{
   text-align: left;
 }

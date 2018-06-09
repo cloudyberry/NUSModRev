@@ -7,16 +7,19 @@
 
 				<h2 class="jokeForm-heading">Post Review</h2>
 				<label><input type="checkbox" value="">Hide name</label>
+
+				<!--jokeName,semester,recommendation,diff,workload,steepness,jokePost-->
+
 				<h6 class="modulecode">Module Code:</h6>
 				<label for="jokeName" class="sr-only">Module Code: Module Name</label>
 				<input type="text" name="jokeName" id="jokeName" class="form-control" placeholder="e.g. CS1231: Discrete Structures" >
 
-				<h6 class="sem">Taken in:</h6>
+				<h6 class="semester">Taken in:</h6>
 				<label for="semester" class="sr-only">Semester taken in: e.g. AY17/18 S1</label>
 				<input type="text" name="semester" id="semester" class="form-control" placeholder="e.g. AY17/18 S1" >
 
-				<h6 class="recommendation">Recommendation Level:</h6>
-                  <select class="form-control" id="sel1">
+									<h6 class="recommendation">Recommendation Level:</h6>
+                  <select class="form-control" id="recommendation" name="recommendation">
                   <option>5</option>
                   <option>4</option>
                   <option>3</option>
@@ -24,22 +27,22 @@
                   <option>1</option>
                   </select>
 
-				<h6 class="diff">Difficulty of Module:</h6>
-                  <select class="form-control" id="sel1">
+									<h6 class="diff">Difficulty of Module:</h6>
+                  <select class="form-control" id="diff" name="diff">
                   <option>Hard</option>
                   <option>Moderate</option>
                   <option>Easy</option>
                   </select>
 
                 <h6 class="workload">Workload of Module:</h6>
-                 <select class="form-control" id="sel1">
+                 <select class="form-control" id="workload" name="workload">
                   <option>High</option>
                   <option>Moderate</option>
                   <option>Low</option>
                  </select>
 
                  <h6 class="steepness">Steepness of Bellcurve:</h6>
-                 <select class="form-control" id="sel1">
+                 <select class="form-control" id="steepness" name="steepness">
                   <option>High</option>
                   <option>Moderate</option>
                   <option>Low</option>

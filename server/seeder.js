@@ -23,6 +23,7 @@ Meteor.startup(function() {
       Jokes.insert({
         jokeName: "CS1231: Discrete Structures",
         jokePost: "Tutorials are extremely tough",
+        semester: "AY1718 S1",
         author: "Kaining",
         date: date,
         createdAt: new Date(),
@@ -52,6 +53,7 @@ Meteor.startup(function() {
       Jokes.insert({
         jokeName: "Funny 1",
         jokePost: "This is a very very Funny joke",
+        semester: "AY1718 S1",
         author: "User1",
         date: date,
         createdAt: new Date(),
@@ -81,6 +83,7 @@ Meteor.startup(function() {
       Jokes.insert({
         jokeName: "Nasty Joke 1",
         jokePost: "This is a very very Nasty joke",
+        semester: "AY1718 S1",
         author: "User2",
         date: date,
         createdAt: new Date(),
@@ -110,6 +113,7 @@ Meteor.startup(function() {
       Jokes.insert({
         jokeName: "Funny Joke 2",
         jokePost: "This is a very very Funny joke",
+        semester: "AY1718 S1",
         author: "User3",
         date: date,
         createdAt: new Date(),
@@ -139,6 +143,7 @@ Meteor.startup(function() {
       Jokes.insert({
         jokeName: "Lame Joke 2",
         jokePost: "This is a very very Lame joke",
+        semester: "AY1718 S1",
         author: "User4",
         date: date,
         createdAt: new Date(),
@@ -168,6 +173,7 @@ Meteor.startup(function() {
       Jokes.insert({
         jokeName: "Nasty Joke 2",
         jokePost: "This is a very very Nasty joke",
+        semester: "AY1718 S1",
         author: "User5",
         date: date,
         createdAt: new Date(),
@@ -197,6 +203,7 @@ Meteor.startup(function() {
       Jokes.insert({
         jokeName: "Funny Joke 3",
         jokePost: "This is a very very Funny joke",
+        semester: "AY1718 S1",
         author: "User6",
         date: date,
         createdAt: new Date(),
@@ -226,6 +233,7 @@ Meteor.startup(function() {
       Jokes.insert({
         jokeName: "Lame Joke 3",
         jokePost: "This is a very very Lame joke",
+        semester: "AY1718 S1",
         author: "User7",
         date: date,
         createdAt: new Date(),
@@ -255,6 +263,7 @@ Meteor.startup(function() {
       Jokes.insert({
         jokeName: "Nasty Joke 3",
         jokePost: "This is a very very Nasty joke",
+        semester: "AY1718 S1",
         author: "User8",
         date: date,
         createdAt: new Date(),
@@ -284,6 +293,7 @@ Meteor.startup(function() {
       Jokes.insert({
         jokeName: "Funny Joke 3",
         jokePost: "This is a very very Funny joke",
+        semester: "AY1718 S1",
         author: "User9",
         date: date,
         createdAt: new Date(),
@@ -313,6 +323,7 @@ Meteor.startup(function() {
       Jokes.insert({
         jokeName: "Nasty Joke 4",
         jokePost: "This is a very very Nasty joke",
+        semester: "AY1718 S1",
         author: "User10",
         date: date,
         createdAt: new Date(),
