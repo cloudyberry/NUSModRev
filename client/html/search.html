@@ -52,29 +52,51 @@
 <template name="User">
 	<li class="user black {{selected}}" id="user-link">
 		<span class="name">{{jokeName}}</span>
-	
+
 
 		{{#if selected}}
 		<div class="jokeInfo">
+				<!--jokeName,semester,recommendation,diff,workload,steepness,jokePost-->
+
+				<div>
+					<span class="posy blue">Semeste: {{semester}}</span>
+				</div>
+					<br>
+
+				<div>
+					<span class="posy blue">Recommendation Level: {{recommendation}}</span>
+				</div>
+					<br>
+
+				<div>
+					<span class="posy blue">Difficulty: {{diff}}</span>
+				</div>
+					<br>
+
 			<div>
 				<span class="posy blue">{{jokePost}}</span>
 			</div>
 				<br>
+
 			<div>
-				<span class="author">Posted by: {{author}}</span>
+				<span class="author">Posted by: {{author}} on {{date}}</span>
 			</div>
 				<br>
+
 			<div>
-				<span class="vote-score red">Laugh Score: {{laughScore}}</span>
+				<span class="vote-score red">Likes: {{laughScore}}</span>
 			</div>
 				<br>
+
 			<div>
-				<span class="vote-score yellow">Frown Score: {{frownScore}}</span>
+				<span class="vote-score yellow">Dislikes: {{frownScore}}</span>
 			</div>
 				<br>
+
 			<div>
-				<span class="vote-score green">Puke Score: {{pukeScore}}</span>
+				<span class="vote-score green">Comments: {{pukeScore}}</span>
 			</div>
+
 		</div>
 		{{/if}}
 	</li>
