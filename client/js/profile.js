@@ -24,7 +24,27 @@ Template.profile.helpers({
 		} else {
 			return Meteor.user().username;
 		}
-	}, 
+	},
+
+	year: function() {
+		if(!Meteor.user()) {
+			Bert.alert("you are not logged in, permission denied", "danger", "growl-top-right");
+			return false;
+		} else {
+			//this should be the problem--> how to call the year associated to the user?
+			return Meteor.user().year;
+		}
+	},
+
+	school: function() {
+		if(!Meteor.user()) {
+			Bert.alert("you are not logged in, permission denied", "danger", "growl-top-right");
+			return false;
+		} else {
+			//how to call the year associated to the user?
+			return Meteor.user().school;
+		}
+	},
 
 	userJokes: function() {
 		var username = Meteor.user().username;
@@ -92,36 +112,3 @@ Template.profile.events({
 		return false // prevent submit
 	}
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

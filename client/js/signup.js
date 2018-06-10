@@ -6,11 +6,14 @@ Template.signup.events({
 	"submit .form-signup": function(event){
 		var username = trimInput(event.target.username.value);
 		var email = trimInput(event.target.email.value);
+		var year = event.target.year.value;
+		var school = trimInput(event.target.school.value);
 		var password = trimInput(event.target.password.value);
 		var password2 = trimInput(event.target.password2.value);
 
 		if(isNotEmpty(email) &&
 			isNotEmpty(username) &&
+			isNotEmpty(school) &&
 			isNotEmpty(password) &&
 			isEmail(email) &&
 			areValidPasswords(password, password2)) {
@@ -19,6 +22,8 @@ Template.signup.events({
 				username: username,
 				email: email,
 				password: password,
+				year: year,
+				school: school,
 				profile: {
 					laughScore: 0,
 					frownScore: 0,
@@ -36,7 +41,7 @@ Template.signup.events({
 
 				}
 			});
-			
+
 		}
 
 		return false; // prevent submit
@@ -89,14 +94,3 @@ areValidPasswords = function(password, confirm) {
 	}
 	return true;
 };
-
-
-
-
-
-
-
-
-
-
-
