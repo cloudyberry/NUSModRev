@@ -36,7 +36,9 @@
 .joke-title {
 	/*color: #52b859;*/
 	color:#134074;
-	border-bottom: 1px #134074 solid;
+	/*border-bottom: 1px #134074 solid;*/
+	border-bottom: 1px #bcbcbc solid;
+        font-family: 'Open sans';
 	font-size: 40px;
 	margin: 0px 0px;
 	padding: 10px 0px;
